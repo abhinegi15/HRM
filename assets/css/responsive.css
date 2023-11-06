@@ -879,6 +879,9 @@ width: 64%;
 }
 
 @media (max-width :500px){
+#managements-desk-slider .owl-dots {
+    DISPLAY: NONE;
+}
 /* learning section start */
 .icon-holder {
 	flex: 0 0 90%;
