@@ -1,0 +1,865 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRM</title>
+    <!-- favicon -->
+    <link rel='shortcut icon' type='images/ico' href='./assets/images/fav-icon.png' />
+
+    <!-- =============== aos css ===============  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- =============== bootstrap css ===============  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- =============== owl css ===============  -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
+
+    <!-- =============== font awesome css ===============  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="path/to/owl.carousel.min.css">
+    <script src="path/to/owl.carousel.min.js"></script>
+
+
+    <!-- ===============  custom css ===============  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- =============== header start ===============  -->
+    <header class="header">
+        <nav>
+            <div class="container-fluid px-5 py-4">
+                <div class="row align-items-center">
+                    <div class="col-sm-3 col-md-3 col-lg-5 col-xl-4">
+                        <div class="logo">
+                            <a href="#"> <img src="./assets/images/logo.png" alt="the wisdom tree"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-7 col-xl-8">
+
+
+                        <div class="nav-right-menu  d-flex justify-content-end gap-4 mt-3">
+                            <button class='border-3 px-2 d-flex align-items-center gap-3' type='button'
+                                data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample'
+                                aria-controls='offcanvasExample'>
+
+                                <div class="nav-btn d-flex gap-4">
+                                    <a href="#" class="nav-cta-btn" target="">CONTACT</a>
+                                    <a href="#" class="nav-cta-btn" target="">ADMISSION</a>
+                                    <a href="#" class="nav-cta-btn" target="">LOGIN</a>
+                                </div>
+
+                                <div class="menu-btn-holder">
+                                    <span><img src="./assets/images/bar.png" alt="bar" class="img-fluid"></span>
+                                    <p class="menu-btn mb-0 text-white"> <span></span>MENU</p>
+                                </div>
+
+                            </button>
+
+                        </div>
+
+                        <div class='offcanvas offcanvas-start-lg' tabindex='-1' id='offcanvasExample'
+                            aria-labelledby='offcanvasExampleLabel'>
+                            <div class='offcanvas-header d-flex d-lg-block'>
+                                <h5 class='offcanvas-title text-white' id='offcanvasExampleLabel'></h5>
+                                <a href='javascript:void(0) ' class='text-reset p-0 d-flex justify-content-end'
+                                    data-bs-dismiss='offcanvas' aria-label='close'>
+                                    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='#FFFFFF'
+                                        class='bi bi-x-circle' viewBox='0 0 16 16'>
+                                        <path
+                                            d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z' />
+                                        <path
+                                            d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class='offcanvas-body p-lg-0'>
+                                <ul class='navbar-nav'>
+                                    <li class='nav-item level1' id="menu1">
+                                        <a class='nav-link' data-id="1" aria-current='page' href='#'>Home</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu2">
+                                        <a class='nav-link' data-id="2" aria-current='page' href='#'>About</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">The Wisdom Tree</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Principal's Message</a></li>
+                                                <li class="level2"><a href="#" data-id="3">Management Desk</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu3">
+                                        <a class='nav-link' data-id="3" aria-current='page' href='#'>Academics</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Evaluation</a></li>
+                                                <li class="level2"><a href="#" data-id="2">School Timings</a></li>
+                                                <li class="level2"><a href="#" data-id="3">Transfer Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="4">ACADEMIC CURRICULUM</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu4">
+                                        <a class='nav-link' data-id="4" aria-current='page' href='#'>Beyond Books</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Library Cum Resource
+                                                        Center</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Computer Resource Centre</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="3">Multipurpose Hall</a></li>
+                                                <li class="level2"><a href="#" data-id="4">Music and Dance</a></li>
+                                                <li class="level2"><a href="#" data-id="5">Sports Curriculum</a></li>
+                                                <li class="level2"><a href="#" data-id="6">Learning Labs</a></li>
+                                                <li class="level2"><a href="#" data-id="7">Yoga and Meditation</a></li>
+                                                <li class="level2"><a href="#" data-id="8">Clubs</a></li>
+                                                <li class="level2"><a href="#" data-id="9">Robotics</a></li>
+                                                <li class="level2"><a href="#" data-id="10">Our Associations</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu5">
+                                        <a class='nav-link' data-id="5" aria-current='page' href='#'>Facilities</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Sick Bay</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Transport</a></li>
+                                                <li class="level2"><a href="#" data-id="3">Counseling and Pastoral
+                                                        Care</a></li>
+                                                <li class="level2"><a href="#" data-id="4">Global Classroom</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu6">
+                                        <a class='nav-link' data-id="6" aria-current='page' href='#'>Admission</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Admission Guidelines</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Steps to Admission</a></li>
+                                                <li class="level2"><a href="#" data-id="3">FAQ</a></li>
+                                                <li class="level2"><a href="#" data-id="4">Admission Enquiry</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu7">
+                                        <a class='nav-link' data-id="7" aria-current='page' href='#'>Disclosure</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Mandatory Disclosure</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Affiliation Letter</a></li>
+                                                <li class="level2"><a href="#" data-id="3">Trust Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="4">NOC State Govt.</a></li>
+                                                <li class="level2"><a href="#" data-id="5">Recognition Certificate</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="6">Building Safety
+                                                        Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="7">Fire Safety Certificate</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="8">Self Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="9">Water, Health & Sanitation
+                                                        Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="10">Fee Structure</a></li>
+                                                <li class="level2"><a href="#" data-id="11">Annual Academic Calender</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="12">School Management
+                                                        Committee</a></li>
+                                                <li class="level2"><a href="#" data-id="13">Parents Teachers
+                                                        Association</a></li>
+                                                <li class="level2"><a href="#" data-id="14">Staff (Teaching)</a></li>
+                                                <li class="level2"><a href="#" data-id="15">School Infrastructure</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="16">Land Certificate</a></li>
+                                                <li class="level2"><a href="#" data-id="17">Affidavit of School</a></li>
+                                                <li class="level2"><a href="#" data-id="18">School Rules & Policy</a>
+                                                </li>
+                                                <li class="level2"><a href="#" data-id="19">Board Result</a></li>
+                                                <li class="level2"><a href="#" data-id="20">Norms Followed For Fixation
+                                                        Of Fee</a></li>
+                                                <li class="level2"><a href="#" data-id="21">Prescribed Book List</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu8">
+                                        <a class='nav-link' data-id="8" aria-current='page' href='#'>Careers</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Openings</a></li>
+                                                <li class="level2"><a href="#" data-id="2">Career Form</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu9">
+                                        <a class='nav-link' data-id="9" aria-current='page' href='#'>Utilities</a>
+                                        <div class="submenu-wrapper">
+                                            <div class="back-menu-mobile d-md-none">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </div>
+                                            <ul class="submenu">
+                                                <li class="level2"><a href="#" data-id="1">Photo Gallery</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu10">
+                                        <a class='nav-link' data-id="10" aria-current='page' href='#'>Contact us</a>
+                                    </li>
+
+                                    <li class='nav-item level1' id="menu11">
+                                        <a class='nav-link' data-id="11" aria-current='page' href='#'>Online
+                                            Registration</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- =============== header end ===============  -->
+
+    <!-- =============== banner start ===============  -->
+    <div class="banner">
+        <div class="container-fluid px-0">
+            <div class="row-wrapper">
+                <div class="hero-slider-outer col-md-12 px-0 ">
+                    <div class="owl-carousel" id="owlHero">
+                        <div class="owl-lazy">
+                            <img src="./assets/images/banner.png" alt="banner" class="img-fluid">
+                            <div class="banner-caption">
+                                <h1>Educating learners for life <span class="text-green">~</span></h1>
+                            </div>
+                        </div>
+                        <div class="owl-lazy"><img src="./assets/images/banner.png" alt="banner" class="img-fluid">
+                            <div class="banner-caption">
+                                <h1>Educating learners for life <span class="text-green">~</span></h1>
+                            </div>
+                        </div>
+                        <div class="owl-lazy"><img src="./assets/images/banner.png" alt="banner" class="img-fluid">
+                            <div class="banner-caption">
+                                <h1>Educating learners for life <span class="text-green">~</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============== banner end ===============  -->
+
+    <!-- =============== about-sec section start ===============  -->
+    <section class="about-sec">
+        <div class="news-title about-title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-once="true">
+            <p>ABOUT</p>
+            <div class="parallelogram"></div>
+        </div>
+
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+            <div class="row">
+                <div class="col-md-12 col-lg-3">
+                    <div class="about-left">
+                        <div class="animated-box">
+                            <div class="main-image">
+                                <img src="./assets/images/about-left-img.png" alt="about-sec" class="img-fluid w-100">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 col-lg-8 ms-auto">
+                    <div class="about-right">
+                        <h2>At HRM Global School, we strive to achieve Innovation and Excellence.</h2>
+                        <p>When young children start school, they bring an innate sense of curiosity and excitement.
+                            These powerful attributes, when complemented with our educational programs and facilities,
+                            allow each student to achieve remarkable outcomes.</p>
+                        <div class="cta-btn-wrapper">
+                            <a href="#" class="cta-btn">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =============== about-sec section end ===============  -->
+
+    <!-- =============== Learning section start ===============  -->
+    <section class="learning-sec">
+        <div class="news-title learning-title" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="true">
+            <p class="text-uppercase">LEARNING</p>
+        </div>
+
+        <div class="learning-bg-img">
+            <img src="./assets/images/learning-img.png" alt="learning" class="img-fluid">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 d-flex flex-wrap mx-auto">
+                    <div class="col-md-12 col-lg-6 ps-3 ps-lg-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+                        <div class="learning-left pe-5">
+                            <p class="text-white">Our Curriculum and Pedagogy focuses on developing Cognitive
+                                Functioning in
+                                Literacy, Numeracy, Digital Literacy, Problem Solving, Creative Thinking and Critical
+                                Thinking.</p>
+                            <ul class="learning-list ps-0 mt-0 mt-lg-5">
+                                <li>Research based learning </li>
+                                <li>Objective Learning </li>
+                                <li>Experiential Learning</li>
+                                <li>Social economics learning </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="learning-right">
+                            <div class="icon-wrapper d-flex flex-wrap">
+                                <div class="icon-holder" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+                                    <img src="./assets/images/learn-icon-1.png" alt="learning" class="img-fluid">
+                                </div>
+
+                                <div class="icon-holder" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+                                    <img src="./assets/images/learn-icon-2.png" alt="learning" class="img-fluid">
+                                </div>
+
+
+                                <div class="icon-holder" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+                                    <img src="./assets/images/learn-icon-3.png" alt="learning" class="img-fluid">
+                                </div>
+
+                                <div class="icon-holder" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+                                    <img src="./assets/images/learn-icon-4.png" alt="learning" class="img-fluid">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Learning section start ===============  -->
+
+    <!-- =============== Thought section start ===============  -->
+    <section class="thought-sec">
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+            <div class="row">
+                <div class="col-md-12 col-lg-9 mx-auto text-center">
+                    <h2 class="title">विद्याधनं सर्व धनं प्रधानम्</h1>
+                        <p class=" pt-3">Wealth of knowledge is the ultimate. Neither the thief can steal it nor the
+                            king himself can snatch forcibly nor the brother can share it and this wealth does not have
+                            any additional weight. More you spend it more it grows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Thought section end ===============  -->
+
+    <!-- =============== Values section start ===============  -->
+    <section class="values-sec">
+        <div class="news-title values-title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-once="true">
+            <p>ETHOS AND VALUES</p>
+            <div class="parallelogram"></div>
+        </div>
+        <div class="container-fluid" data-aos="zoom-out" data-aos-duration="2500" data-aos-once="true">
+            <div class="row">
+                <div class="tree-outer col-md-12 text-center">
+                    <p class="tree-outer-text tree-outer-text-1">RESPONSIBILITY & WISDOM </p>
+                    <p class="tree-outer-text tree-outer-text-2">PHYSICAL, EMOTIONAL, SOCIAL & SPIRITUIAL DEVELOPMENT
+                    </p>
+                    <p class="tree-outer-text tree-outer-text-3">INTELLECTUALLY COMPETITIVE</p>
+                    <p class="tree-outer-text tree-outer-text-4">RICH CULTURE & SPIRITUAL HERITAGE</p>
+                    <p class="tree-outer-text tree-outer-text-5">PROFICIENCY IN LANGUAGE</p>
+                    <p class="tree-outer-text tree-outer-text-6">ETHICAL REASONING & DIGITAL LITERACY</p>
+                    <p class="tree-outer-text tree-outer-text-7">RISK TAKERS & HOLISTIC LEARNERS </p>
+                    <p class="tree-outer-text tree-outer-text-8">DETERMINATION, INSPIRATION & EQUALITY</p>
+                    <p class="tree-outer-text tree-outer-text-9">CARING, PURE, HONEST, TOLERANT, KIND & FEARLESS</p>
+                    <div class="tree-inner">
+                        <div class="tree-holder" data-aos="zoom-in" data-aos-once="true">
+                            <img src="./assets/images/values-tree.png" alt="tree" class="img-fluid">
+                            <p class="tree-text tree-text-1">सरंचना</p>
+                            <p class="tree-text tree-text-2">चेतना</p>
+                            <p class="tree-text tree-text-3">बुद्धि</p>
+                            <p class="tree-text tree-text-4">बोध</p>
+                            <p class="tree-text tree-text-5">अध्ययन</p>
+                            <p class="tree-text tree-text-6">ज्ञान</p>
+                            <p class="tree-text tree-text-7">प्रतिभा</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Values section end ===============  -->
+
+    <!-- =============== Vision section start ===============  -->
+    <section class="vision-sec" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+        <div class="news-title learning-title vision-title" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="true">
+            OUR VISION
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="vision-holder">
+
+                        <div class="owl-carousel" id="vision-slider">
+                            <div class="item">
+                                <div class="content">
+                                    <p>To empower students to acquire, demonstrate, articulate and value knowledge and
+                                        skills that will support them, as life-long learners, to participate in and
+                                        contribute to the global world by practising the core values of the school.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="content">
+                                    <p>To empower students to acquire, demonstrate, articulate and value knowledge and
+                                        skills that will support them, as life-long learners, to participate in and
+                                        contribute to the global world by practising the core values of the school.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="content">
+                                    <p>To empower students to acquire, demonstrate, articulate and value knowledge and
+                                        skills that will support them, as life-long learners, to participate in and
+                                        contribute to the global world by practising the core values of the school.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-target">
+                    <img src="./assets/images/Goal.png" alt="goal" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Vision section end ===============  -->
+
+    <!-- =============== Management's Desk Start ===============  -->
+    <section class="managements-desk">
+        <div class="management-desk-title py-5" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-once="true">
+            <span>
+                <p>MANAGEMENT’S DESK</p>
+            </span>
+            <div class="parallelogram"></div>
+        </div>
+        <div class="owl-carousel owl-theme" id="managements-desk-slider" data-slider-id="1">
+            <div class="item row">
+                <div class="managements-img col-6 col-md-5 col-lg-3 pe-5">
+                    <div class="managements-box">
+                        <img src="https://source.unsplash.com/300x300/?model" alt="mssgs" class="img-fluid">
+                    </div>
+                </div>
+                <div class="managements-mssg col-md-7 col-lg-7 ps-lg-5">
+                    <h1>SHRUTI</h1>
+                    <p class="fs-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, modi?
+                        Saepe sint corporis obcaecati aperiam odit deleniti cum eveniet rem. Lorem ipsum dolor sit amet
+                        consectetur,
+                        adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item row">
+                <div class="managements-img col-6 col-md-5 col-lg-3 pe-5">
+                    <div class="managements-box">
+                        <img src="https://source.unsplash.com/300x300/?primary" alt="mssgs" class="img-fluid">
+                    </div>
+                </div>
+                <div class="managements-mssg col-md-7 col-lg-7 ps-lg-5">
+                    <h1>RUBY</h1>
+                    <p class="fs-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, modi?
+                        Saepe sint corporis obcaecati aperiam odit deleniti cum eveniet rem. Lorem ipsum dolor sit amet
+                        consectetur,
+                        adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item row">
+                <div class="managements-img col-6 col-md-5 col-lg-3 pe-5">
+                    <div class="managements-box">
+                        <img src="https://source.unsplash.com/300x300/?actor" alt="mssgs" class="img-fluid">
+                    </div>
+                </div>
+                <div class="managements-mssg col-md-7 col-lg-7 ps-lg-5">
+                    <h1>SANGEETA</h1>
+                    <p class="fs-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, modi?
+                        Saepe sint corporis obcaecati aperiam odit deleniti cum eveniet rem. Lorem ipsum dolor sit amet
+                        consectetur,
+                        adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item row">
+                <div class="managements-img col-6 col-md-5 col-lg-3 pe-5">
+                    <div class="managements-box">
+                        <img src="https://source.unsplash.com/300x300/?doctor" alt="mssgs" class="img-fluid">
+                    </div>
+                </div>
+                <div class="managements-mssg col-md-7 col-lg-7 ps-lg-5">
+                    <h1>MEGHA</h1>
+                    <p class="fs-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, modi?
+                        Saepe sint corporis obcaecati aperiam odit deleniti cum eveniet rem. Lorem ipsum dolor sit amet
+                        consectetur,
+                        adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Management's Desk End ===============  -->
+
+    <!-- =============== News and Event start ===============  -->
+    <section class="news-event">
+        <div class="news-title news-main-title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-once="true">
+            <span>
+                <p>NEWS AND EVENTS</p>
+            </span>
+            <div class="parallelogram"></div>
+        </div>
+        <div class="background"></div>
+        <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" data-aos-once="true">
+            <div class="row gy-md-5 gy-lg-0">
+                <div class="news-img col-md-4 col-lg-4">
+                    <div id="img1">
+                        <img src="./assets/images/news-1.png" class="img-fluid w-100" alt="" />
+                    </div>
+                    <div class="event-text">
+                        <span>15 March</span>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem
+                            explicabo ipsa architecto vero in?
+                        </p>
+                    </div>
+                </div>
+                <div class="news-img col-md-4 col-lg-4">
+                    <div id="img1">
+                        <img src="./assets/images/news-2.png" class="img-fluid w-100" alt="" />
+                    </div>
+                    <div class="event-text">
+                        <span>16 March</span>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem
+                            explicabo ipsa architecto vero in?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="news-img col-md-4 col-lg-4">
+                    <div id="img1">
+                        <img src="./assets/images/news-3.png" class="img-fluid w-100" alt="" />
+                    </div>
+                    <div class="event-text">
+                        <span>17 March</span>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem
+                            explicabo ipsa architecto vero in?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== News and Event end ===============  -->
+
+    <!-- =============== Comunity Outreach Programe start ===============  -->
+    <section class="community-utreach-programe">
+        <div class="news-title community-title" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-once="true">
+            <span>
+                <p>COMMUNITY OUTREACH PROGRAME</p>
+            </span>
+            <div class="parallelogram"></div>
+        </div>
+        <div class="community row">
+            <div class="paragraph col-md-6 col-lg-5" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                <h1>Community Outreach <br>Programe</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
+                    natus.
+                </p>
+            </div>
+            <div class="community-background col-md-6 col-lg-7" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
+                <div class="community-caraousel ">
+                    <div class="owl-carousel owl-theme" id="community-caraousel">
+                        <div class="item">
+                            <img src="./assets/images/community-1.png" alt="" />
+                            <span id="community-item-name">
+                                <h3>Lorem Ipsum</h3>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/community-2.png" alt="" />
+                            <span id="community-item-name">
+                                <h3>Lorem Ipsum</h3>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/community-1.png" alt="" /><span id="community-item-name">
+                                <h3>Lorem Ipsum</h3>
+                            </span>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/images/community-2.png" alt="" /><span id="community-item-name">
+                                <h3>Lorem Ipsum</h3>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <div class="customPreviousBtn">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                        <div class="customNextBtn">
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- =============== Comunity Outreach Programe end ===============  -->
+
+    <!-- =============== Student's Birthday start ===============  -->
+    <section class="Students-birthday">
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="birthday-title news-title" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="true">
+                    <span>
+                        <p>STUDENT’S BIRTHDAY</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="bday-items text-start">
+            <ul>
+                <li><img src="./assets/images/Gift.png" alt=""></li>
+                <li><img src="./assets/images/cake.png" alt=""></li>
+                <li><img src="./assets/images/Confetti.png" alt=""></li>
+                <li><img src="./assets/images/Party-Balloon.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="bday-slider-holder">
+                    <div class="owl-carousel owl-theme" id="birthday-carousel">
+                        <div class="birthday-slider-content">
+                            <div class="item">
+                                <div class="birthday-image">
+                                    <div class="animated-box">
+                                        <div class="main-image">
+                                            <img src="./assets/images/bday-1.png" alt="testimonial"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bday-details ps-5 py-5">
+                                    <h1 class="birthday-name pb-4">15 April 2024</h1>
+                                    <h3 class="bday-wish pb-2">Happy Birthday Dear <br>Suraj</h3>
+                                    <h4 class="grade">(Grade 11)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="birthday-slider-content">
+                            <div class="item">
+                                <div class="birthday-image">
+                                    <div class="animated-box">
+                                        <div class="main-image">
+                                            <img src="./assets/images/bday-1.png" alt="testimonial"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bday-details ps-5 py-5">
+                                    <h1 class="birthday-name pb-4">15 May 2024</h1>
+                                    <h3 class="bday-wish pb-2">Happy Birthday Dear <br>Abhishek</h3>
+                                    <h4 class="grade">(Grade 09)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="birthday-slider-content">
+                            <div class="item">
+                                <div class="birthday-image">
+                                    <div class="animated-box">
+                                        <div class="main-image">
+                                            <img src="./assets/images/bday-1.png" alt="testimonial"
+                                                class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bday-details ps-5 py-5">
+                                    <h1 class="birthday-name pb-4">05 May 2024</h1>
+                                    <h3 class="bday-wish pb-2">Happy Birthday Dear <br>Vikash</h3>
+                                    <h4 class="grade">(Grade 12)</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gift-items text-end">
+            <ul>
+                <li><img src="./assets/images/Gift-big.png" alt=""></li>
+                <li><img src="./assets/images/Gift-small.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <!-- =============== Student's Birthday end ===============  -->
+
+
+    <!-- =============== Testimonials start ===============  -->
+    <section class="testimonials"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true">
+        <div class="news-title testimonials-title" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2500" data-aos-once="true">
+            <span>
+                <p>TESTIMONIALS</p>
+            </span>
+            <div class="parallelogram"></div>
+        </div>
+        <div class="container">
+            <div class="owl-carousel" id="testimonials-carausel">
+                <div class="item">
+                    <div class="testimonials-img">
+                        <img src="./assets/images/bday-1.png" class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="review-details text-center">
+                        <h1>Shruti</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum facilis eligendi
+                            rem natus.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonials-img">
+                        <img src="./assets/images/bday-1.png" class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="review-details text-center">
+                        <h1>Ruby</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum facilis eligendi
+                            rem natus.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonials-img">
+                        <img src="./assets/images/bday-1.png" class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="review-details text-center">
+                        <h1>Sangeeta</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi nostrum facilis eligendi
+                            rem natus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== Testimonials end ===============  -->
+
+
+    <!-- =============== Footer Start ===============  -->
+    <footer>
+        <div class="footer container-fluid mx-0 pt-4"> </div>
+        <div class="footer-main row">
+
+            <div class="footer-logo col-lg-3 col-xl-4 text-center">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+            <div class="footer-menu col-md-6 col-lg-8 col-xl-8 row">
+                <div class="col">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Principal’s Desk</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo col-md-4 pt-3">
+                    <p>Connect with us</p>
+                    <ul>
+                        <li><a href="#"><img src="./assets/images/Facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="./assets/images/Instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="./assets/images/YouTube.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="below-footer-text text-center">
+                <h5 class="my-1">Powered by www.shauryasoft.com</h5>
+            </div>
+        </div>
+    </footer>
+    <!-- =============== Footer End ===============  -->
+
+
+    <!-- =============== aos js  ===============  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- =============== bootstrap js ===============  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- =============== owl carousel js and jquery ===============  -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
+
+    <!-- =============== custom js ===============  -->
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

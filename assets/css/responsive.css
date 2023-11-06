@@ -1,0 +1,931 @@
+/* header toggle  css start */
+
+@media (min-width : 10000px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    background      : none;
+    border          : none;
+    justify-content : end;
+    color           : red;
+  }
+}
+
+@media (max-width : 10000px) {
+  .offcanvas {
+    visibility      : visible;
+    width : 100% !important;
+  }
+
+  .offcanvas-start-lg {
+    top          : 0;
+    left         : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateX(-100%);
+  }
+
+  .offcanvas-body {
+    overflow-x: hidden;
+}
+
+}
+
+/* header  toggle css end */
+
+
+@media (max-width :1600px){
+   /* header start */
+   .submenu-wrapper {
+    width: 70%;
+    left: 30%;
+  }
+   /* header end */
+
+
+   /* line css start */
+  .news-main-title p::before {
+    width: 73%;
+  }
+
+  .about-title p::before {
+    width: 69%;
+  }
+
+  .management-desk-title p::after {
+    width: 68%;
+  }
+
+  .learning-title p::after {
+    width: 57%;
+  }
+
+  .values-title p::before {
+    width: 70%;
+  }
+
+  .community-title p::after {
+    width: 58%;
+  }
+
+  .birthday-title p::after {
+    width: 54%;
+  }
+
+  .testimonials-title p::before {
+    width: 73%;
+  }
+
+  .vision-title::after {
+    width: 59%;
+  }
+
+/* line css end */
+
+  /* values section start */
+
+  .tree-outer-text-5 {
+    left: 10%;
+  }
+
+  .tree-outer-text-7 {
+    left: 10%;
+  }
+
+  .tree-outer-text-6 {
+    left: 80%;
+  }
+
+  /* values section end */
+
+  /* community carousel start */
+  .community-caraousel .item {
+    width: auto;
+    margin-right: 24px;
+  }
+  /* community carousel end */
+
+  /* community carousel end */
+
+  .students-birthday {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width :1440px){
+
+  /* line css start */
+
+  .learning-title p::after {
+    width: 54%;
+  }
+
+  .community-title p::after {
+    width: 54%;
+  }
+
+  .birthday-title p::after {
+    width: 53%;
+  }
+
+  .testimonials-title p::before {
+    width: 70%;
+  }
+
+  .vision-title::after {
+    width: 56%;
+  }
+
+/* line css end */
+
+ /* values section start */
+
+ .tree-outer-text-1 {
+  left: 20%;
+}
+
+ .tree-outer-text-2 {
+  left: 65%;
+}
+
+ .tree-outer-text-3 {
+  left: 5%;
+}
+
+.tree-outer-text-4 {
+  left: 77%;
+}
+
+.tree-outer-text-5 {
+  left: 4%;
+}
+
+.tree-outer-text-6 {
+  left: 82%;
+  width: 248px;
+}
+ 
+.tree-outer-text-7 {
+  left: 2%;
+}
+
+.tree-outer-text-8 {
+  left: 19%;
+}
+
+
+
+
+ /* values section end */
+
+/* community section start */
+
+ .community .paragraph {
+  padding-left: 6%;
+}
+
+.community-caraousel {
+  transform: translate(-4rem, 3rem);
+}
+
+/* community section end */
+
+   /* student birthday section start */
+   .students-birthday {
+    margin-top: 20rem;
+  }
+/* student birthday section end */
+
+ /* testimonial section start */
+ .review-details p {
+  font-size: 20px;
+  line-height: 143%;
+}
+ /* testimonial section end */
+
+   /* footer start */
+.footer {
+  height: 673px;
+}
+/* footer end */
+}
+
+@media (max-width :1400px){
+h1 {
+  font-size: 36px !important;
+}
+
+   /* line css start */
+
+   .management-desk-title p::after {
+    width: 65%;
+  }
+
+   /* line css end */
+}
+
+
+@media (max-width :1280px){
+
+/* line css start */
+
+.about-title p {
+  padding-right: 10%;
+}
+
+.about-title p::after {
+  right: 8.5%;
+}
+
+.about-title p::before {
+  width: 80%;
+}
+
+.news-main-title p::before {
+  width: 67%;
+}
+
+.community-title p::after {
+  width: 40%;
+}
+
+
+.values-title p::before {
+  width: 67%;
+}
+
+.vision-title::after {
+  width: 53%;
+}
+
+.management-desk-title p::after {
+  width: 62%;
+}
+
+.community-title p::after {
+  width: 48%;
+}
+
+.birthday-title p::after {
+  width: 48%;
+}
+
+.testimonials-title p::before {
+  width: 67%;
+}
+
+/* line css end */
+
+/* learning section css start */
+
+.icon-holder {
+  flex: 0 0 40%;
+}
+
+/* learning section css end */
+
+/* news sec start */
+.background {
+  height: 690px;
+}
+/* news sec end */
+
+/* thought sec start */
+.thought-sec p {
+  font-size: 24px;
+  line-height: 44px;
+}
+/* thought sec end */
+
+ /* community sec start */
+ .community-caraousel {
+  transform: translate(0rem, 3rem);
+}
+
+.community-caraousel .item {
+  height: 320px;
+}
+
+.community-background {
+  height: auto;
+}
+ /* community sec end */
+
+ /* values sec start */
+
+.tree-holder img {
+  width: 63%;
+}
+
+
+.tree-outer p {
+  font-size: 16px;
+}
+
+.tree-inner p {
+  font-size: 24px;
+}
+
+.tree-outer-text-6 {
+  left: 78%;
+}
+  /* values sec end */
+
+  /* bdy slider start */
+  .bday-wish {
+    padding-right: 0rem;
+    font-size: 24px;
+  }
+  .students-birthday {
+    margin-top: 13rem;
+  }
+  /* bdy slider end */
+
+  /* testimonial slider start */
+
+  .review-details {
+    display: none;
+  }
+
+/* testimonial slider end */
+
+  /* footer start */
+  .footer-main {
+    width: 100%;
+  }
+  /* footer end */
+}
+
+@media (max-width :1200px){
+
+
+/* testimonial section start */
+
+#testimonials-carausel .owl-item.active.center .testimonials-img::after {
+  left: 44%;
+  top: 40%;
+}
+
+#testimonials-carausel .owl-item.active.center .testimonials-img::before {
+  left: 15%;
+  top: 15%;
+}
+
+.testimonials-img::after {
+  left: 44%;
+  top: 59%;
+}
+
+.testimonials-img::before {
+  left: 15%;
+  top: 15%;
+}
+
+.review-details h1 {
+  font-size: 28px !important;
+  margin-top: 3rem;
+}
+
+/* testimonial end  */
+}
+
+@media (max-width :1080px){
+
+/* community section css start */
+
+.community .paragraph {
+  transform: translateY(0rem);
+}
+
+/* community section css end */
+
+/* line css start */
+.values-title p::before {
+width: 64%;
+}
+
+.management-desk-title p::after {
+width: 60%;
+}
+
+.birthday-title p::after {
+width: 43%;
+}
+
+.testimonials-title p::before {
+width: 64%;
+}
+/* line css end */
+
+/* tree section start */
+
+.tree-outer-text-3 {
+  width: 224px;
+}
+
+/* tree section end */
+
+  /* student bdy section end */
+.students-birthday {
+  margin-top: 8rem;
+}
+}
+
+@media (max-width :991px){
+
+  /* about us section start */
+  .animated-box {
+    max-height: 500px;
+  }
+
+  .main-image ,  .main-image img{
+    max-height: 500px;
+    overflow-y: hidden;
+    object-fit: cover;
+  }
+
+  .about-right {
+    margin-top: 3rem;
+  }
+
+  /* about us section end */
+
+  /* line css start */
+  .learning-title p::after {
+    width: 48%;
+  }
+
+  .about-title p::before {
+    width: 78%;
+  }
+
+  .vision-title::after {
+    width: 44%;
+  }
+
+  .vision-title::before {
+    top: 28%;
+  }
+
+  .values-title p::before {
+    width: 57%;
+  }
+
+  .management-desk-title p::after {
+    width: 50%;
+  }
+
+  .news-main-title p::before {
+    width: 58%;
+  }
+
+  .testimonials-title p::before {
+    width: 58%;
+  }
+
+  /* line css end */
+
+  /* tree section start */ 
+  .tree-outer p {
+    font-size: 14px;
+  }
+
+  .tree-text {
+    font-size: 18px;
+  }
+
+  .tree-outer-text-7 {
+    left: 3%;
+    top: 60%;
+    width: 164px;
+  }
+
+  .tree-outer-text-2 {
+    left: 65%;
+    width: 234px;
+  }
+
+  .tree-outer-text-4 {
+    left: 75%;
+    width: 160px;
+    top: 26%;
+  }
+
+  .tree-outer-text-6 {
+    left: 77%;
+    width: 155px;
+  }
+
+  .tree-outer-text-9 {
+    top: 83%;
+    left: 66%;
+    width: 235px;
+  }
+
+  .tree-holder img {
+    width: 50%;
+  }
+
+  .tree-outer-text-8 {
+    left: 6%;
+  }
+
+  .community-title p::after {
+    width: 28%;
+  }
+
+  .birthday-title p::after {
+    width: 32%;
+  }
+
+    /* tree section end */
+
+    .background {
+      height: 600px;
+      transform: skew(14deg);
+    }
+
+ /* thought section css start */
+  .thought-sec h2 {
+    font-size: 40px;
+  }
+
+  .thought-sec {
+    padding: 6rem 0rem 5rem 0;
+  }
+
+ /* thought section css end */
+
+ /* management desk start */
+
+ #managements-desk-slider {
+	padding: 2% 0%;
+}
+
+.managements-mssg p {
+	font-size: 22px !important;
+	line-height: 156%;
+
+}
+
+ /* management desk end */
+
+  /* bdy section  start */
+
+ .bday-details {
+	flex: 0 0 50%;
+}
+
+.bday-details {
+	padding-top: 0 !important;
+}
+
+.bday-items {
+	top: 32px;
+}
+
+.bday-items ul li {
+	margin-top: 12px;
+}
+  /* bdy section  end */
+
+  /* footer start */
+  .footer-menu {
+    width: 100%;
+  }
+
+  .footer {
+    height: 760px;
+  }
+}
+
+
+@media (max-width :767px){
+
+/* header css start */
+
+.submenu-wrapper {
+	width: 0%;
+	left: 100%;
+}
+
+.nav-item {
+	position: static;
+	width: 100%;
+}
+  .nav-cta-btn {
+    padding: 0 0px;
+  }
+
+  .header .container-fluid {
+    padding: 1rem !important;
+  }
+
+  /* header css end */
+
+  /* vision section start */
+  .vision-title::after {
+    top: 28%;
+  }
+
+  #vision-slider p {
+    font-size: 22px;
+    line-height: 45px;
+  }
+  /* vision section end */
+
+  /* management  section start */
+
+  .managements-img {
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+ /* management  section end */
+
+  /* news  section start */
+
+ .background {
+   display: none;
+}
+
+.news-img { 
+  margin-bottom: 1rem;
+}
+
+#img1 img {
+	object-fit: cover;
+  height: 400px;
+}
+
+  /* news  section end */
+
+   /* community  section start */
+
+  .community-title p::before {
+    top: -40%;
+    width: 8%;
+  }
+
+  .community-background {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+   /* community  section end */
+
+  /* bday  section start */
+   .birthday-slider-content .item {
+    flex-wrap: wrap;
+    left: 0%;
+  }
+
+  #birthday-carousel .owl-dots {
+    left: 42%;
+  }
+
+  .birthday-image {
+    flex: 0 0 100%;
+    left: 10%;
+  }
+
+  .bday-slider-holder {
+    width: 98%;
+    margin-top: 3rem;
+  }
+
+  .birthday-slider-content {
+    width: 72%;
+    margin: auto;
+  }
+  .bday-details {
+    flex: 0 0 100%;
+  }
+
+  .bday-items ul li {
+    margin-top: 65px;
+  }
+
+  .bday-items {
+    top: 120px;
+  }
+  
+
+  /* bday  section end */
+
+  /* testimonial  section start */
+
+  .news-main-title p::after , .management-desk-title p::before  {
+    width: 10%;
+    margin-top: -17px;
+  }
+  /* testimonial  section end */
+
+  /* footer start */
+  .footer {
+    height: 815px;
+  }
+  /* footer end */
+}
+
+@media (max-width :575px){
+
+
+  h2 {
+    font-size: 26px !important;
+  }
+  section{
+    padding-left: 16px !important; 
+    padding-right: 16px !important; 
+  }
+  /* header start */
+  .logo {
+    text-align: center;
+  }
+  /* header end */
+
+  /* banner start */
+
+  .hero-slider-outer img {
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 28px !important;
+  }
+
+  /* banner end */
+
+  /* title line css start */
+  .about-title p::before {
+    width: 70%;
+  }
+
+  .about-title p::after {
+    width: 10%;
+  }
+
+  .news-title p , .management-desk-title p {
+    font-size: 20px;
+  }
+
+
+
+  .learning-title p::after {
+    width: 44%;
+  }
+  .values-title p::before {
+    width: 40%;
+  }
+
+  .values-title p::after {
+    width: 10%;
+  }
+
+  .vision-title {
+    font-size: 20px !Important;
+  }
+
+  .vision-title::after ,   .vision-title::before  {
+    top: 20%;
+  }
+
+  .management-desk-title p::after {
+    width: 36%;
+  }
+
+  .news-main-title p::before {
+    width: 46%;
+  }
+
+  .community-title p::after {
+    width: 8%;
+  }
+
+  .birthday-title span p {
+    font-size: 20px;
+  }
+
+  .testimonials-title p::before {
+    width: 48%;
+  }
+
+    /* title line css end */
+
+
+    /* about section start */
+
+    .main-image, .main-image img ,   .animated-box {
+      max-height: 380px;
+      width: 80%;
+      margin: auto;
+    }
+
+
+    .about-sec .animated-box::after {
+      right: 0%;
+    }
+
+    .about-right p {
+      line-height: 32px;
+      font-size: 18px;
+    }
+
+
+
+   /* about section end */
+
+   /* tree section start */
+
+   .tree-outer-text {
+    position: relative !Important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .tree-holder img {
+    width: 95%;
+  }
+    /* tree section end */
+
+    /* bdy section start */
+
+    .bday-items {
+      top: -2px;
+      left: -9%;
+    }
+
+   /* bdy section end */
+
+   /* testimonials section start */
+
+   #testimonials-carausel .owl-item.active.center {
+    transform: scale(1);
+  }
+
+  #testimonials-carausel .owl-item.active.center .testimonials-img::after {
+    left: 62%;
+    top: 54%;
+  }
+
+    /* testimonials section end */
+
+    /* footer start */
+    .footer {
+      height: 885px;
+    }
+    /* footer end */
+}
+
+@media (max-width :500px){
+/* learning section start */
+.icon-holder {
+	flex: 0 0 90%;
+}
+/* learning section end */
+
+/* title line css start */
+.news-main-title p::before {
+	width: 40%;
+}
+
+.community-title p {
+	padding-left: 0%;
+}
+
+.community-title p::before {
+	left: 0%;
+	top: -55%;
+}
+
+.birthday-title p::after {
+	width: 22%;
+}
+
+.testimonials-title p::before {
+	width: 44%;
+}
+
+/* title line css end */
+
+/* community sec css start */
+.paragraph h1 br{
+  display: none;
+}
+.community .paragraph {
+	font-size: 18px;
+}
+
+/* community sec css end */
+
+/* footer start */
+.footer {
+	height: 952px;
+}
+
+.footer-menu .col {
+	flex: 1 0 100%;
+}
+/* footer end */
+}
